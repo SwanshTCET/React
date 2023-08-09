@@ -1,0 +1,64 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const name = "Swayam"
+const number = "9"
+ReactDOM.render(
+<div>
+<h1>Hello {name}</h1>
+<p>My lucky number is {number}</p>
+</div>,
+document.getElementById("root"));
+============================================================================
+import React from "react";
+import ReactDOM from "react-dom";
+
+const name = "Swayam"
+const number = "9"
+
+ReactDOM.render(
+<div>
+<h1>Hello {name}</h1>
+<p>My lucky number is {number}</p>
+<p>Vivek's lucky number is {Math.floor(Math.random()*10)}</p>
+<p>Akhilesh's lucky number is {number}</p>
+</div>,
+document.getElementById("root"));
+=============================================================================
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+// const fname = "Swayam";
+// const lname ="Sharma";
+// const number = "9";
+
+// ReactDOM.render(
+//   <div>
+//     <h1>Hello {fname} {lname}</h1>
+//     <p>My lucky number is {number}</p>
+//     <p>Vivek's lucky number is {Math.floor(Math.random() * 10)}</p>
+//     <p>Akhilesh's lucky number is {number}</p>
+//   </div>,
+//   document.getElementById("root")
+// );
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const namef = "Swayam";
+const namel = "sharma";
+
+ReactDOM.render(
+  <div>
+    <h1>
+      {" "}
+      My name is {namef} {namel}
+    </h1>
+    <ul>
+      <li>Swayam means Khud</li>
+      <li>Sharma means its my surname </li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
