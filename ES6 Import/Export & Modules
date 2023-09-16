@@ -1,0 +1,16 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import piw, { doublepi, triplepi } from "./math";
+import tamper,{tamper1} from "./random"
+
+ReactDOM.render(
+  <div>
+  <ul>
+    <li>{piw}</li>
+    <li>{doublepi()}</li>
+    <li>{triplepi()}</li>
+  </ul>
+  <h1> {tamper}, {tamper1()} </h1>
+  </div>,
+  document.getElementById("root")
+);
